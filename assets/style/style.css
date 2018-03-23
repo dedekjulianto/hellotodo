@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Black Jack";
+  src: url("../fonts/blackjack/blackjack-webfont.eot");
+  src: url("../fonts/blackjack/blackjack-webfont.eot?iefix") format("eot"), url("../fonts/blackjack/blackjack-webfont.woff") format("woff"), url("../fonts/blackjack/blackjack-webfont.ttf") format("truetype"), url("../fonts/blackjack/blackjack-webfont.svg#webfont") format("svg");
+}
+body {
+  margin: 0px;
+  padding: 10px;
+  color: #606060;
+}
+.tengah {
+  text-align: center;
+}
+.header {
+  display: auto;
+}
+h1.head {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Black Jack";
+  margin: auto;
+  font-weight: 300;
+}
+.menu {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.menu nav {
+  margin-top: 20px;
+  font-size: 21px;
+  letter-spacing: 50px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.list-flex{
+  display:flex;
+  flex-direction: column;
+}
+p.welcome {
+  font-size: 30px;
+  margin-top: auto;
+  letter-spacing: 2px;
+}
+.link {
+  text-decoration: none;
+  display: inline;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.input-text {
+  border-color: #f1c646;
+  border-style: solid;
+  width: 500px;
+  height: 30px;
+}
+.btn {
+  background: #3a95e4;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 19px;
+}
+.btn:hover {
+  background: #45a6f9;
+  color: white;
+}
+main.tampil {
+  padding-top: 20px;
+}
+.tampil img {
+  width: 40%;
+}
+.output {
+  border-style: solid;
+  padding: 2px;
+  border-color: #2497d9;
+  border-width: 2px;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+.margin {
+  margin: 10px;
+  color: red;
+  margin-left: 0px;
+}
+.hapus {
+  margin-right: auto;
+  float: right;
+  background-color: transparent;
+  border-color: transparent;
+  color: #bdbdbd;
+  font-weight: bold;
+}
+.hapus:hover {
+  background-color: orange;
+}
+.about {
+  font-family: "Black Jack";
+  text-align: justify;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #4e4e4e;
+}

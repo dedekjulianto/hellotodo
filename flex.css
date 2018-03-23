@@ -1,0 +1,44 @@
+.container{
+  border: 1px solid gray;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.horizontal-center{
+  justify-content: center;
+}
+.item{
+  color: blue;
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: 578px;
+}
+
+
+.con {
+  background: black;
+  padding: 5px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.div1 {
+  background: green;
+  width: 200px;
+}
+
+.div2 {
+  background: yellow;
+  width: 200px;
+}
+
+.div3 {
+  background: blue;
+  width: 200px;
+}
