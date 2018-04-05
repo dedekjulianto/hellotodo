@@ -37,48 +37,22 @@
       <p class="welcome">Hi, Welcome in App</p>
     </main>
 
-    <form>
-      <div>
-        <label>Name</label></br>
-        <input class="input-text" type="text" name="name" placeholder="Input Name" /><br/></br>
-      </div>
-      <div>
-        <label>Email</label></br>
-        <input class="input-text" type="email" name="email" placeholder="Input Email" /></br>
-      </div>
-      <div class="margin">
-        <button class="btn" type="button" name="button">Input</button>
-      </div>
-    </form>
-
-    <main>
-      <b><p>Impact Todo</p></b>
-    </main>
-
     <main>
       <b>Hello Todo</b><br/>
-      <form class="form">
-        <input class="input-text" type="text" name="input">
-        <button class="btn" type="submit" name="button">Submit</button><br/>
+      <form id="form" class="form">
+        <input class="input-text" type="text" id="inputName" /><br/><br/>
+        <button class="btn" type="submit" id="addButton">Submit</button><br/>
       </form>
 
       <div class="output">
         <div class="margin">
-          <span>Create todo text</span>
-          <button class="hapus" type="button" name="button">X</button>
+          <div id="show">
+          <!--<div>list add contact</div>
+          <div>this output <button id="clear" type="button" name="button">X</button></div>
+        -->
         </div>
-
-        <div class="margin">
-          <span>Create todo text</span>
-          <button class="hapus" type="submit" name="button">X</button>
-        </div>
-
-        <div class="margin">
-          <span>Create todo text</span>
-          <button class="hapus" type="submit" name="button">X</button>
         </div>
       </div>
-
     </main>
 
   </div>
@@ -87,6 +61,7 @@
   </footer>
 
   <script type="text/javascript" src="./assets/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
